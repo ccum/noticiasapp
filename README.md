@@ -13,8 +13,6 @@ Esta apliación esta desplegado en 'netlify' y lo puedes ver en el siguiente enl
 - documentacion de la app
 -  consultando las noticias en base a la seleccion
 - creando buscador de categorias
-- Mostrando las Citas del State
-- Reiniciando el Formulario al agregar la cita
-- Mostrando el mensaje de error
-- Almacenando la nueva cita en el state
-- Inicio, Creando el Formulario, Leyendo los datos del formulario,Leyendo los datos del formulario
+- cargando imagenes condicionalmente
+- mostrando la informacion de las noticias
+- Iterando las Noticias y llamando los componentes
