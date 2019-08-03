@@ -19,7 +19,7 @@ const Noticia = ({noticia}) => {
                     <p>{description}</p>
                 </div>
                 <div className="card-action">
-                    <a href={url} target="_blank" without rel="noopener noreferrer" className="waves-effects waves-light btn">
+                    <a href={url} target="_blank" without="true" rel="noopener noreferrer" className="waves-effects waves-light btn">
                         Ver noticia completa
                     </a>
                 </div>
