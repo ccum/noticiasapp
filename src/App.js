@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import Header from './components/Header.js'
 import ListaNoticias from './components/ListaNoticias.js'
+import Formulario from './components/Formulario'
 
 class App extends Component {
   state = {  
@@ -27,6 +28,7 @@ class App extends Component {
           titulo = 'Noticias API'
         />
         <div className="container white contenedor-noticias">
+          <Formulario/>
           <ListaNoticias
             noticias={this.state.noticias}
           />
